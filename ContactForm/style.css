@@ -1,0 +1,89 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(images/con.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    img{
+        width: 400px;
+        height: 500px;
+        margin-left: 05%;
+        margin-top: 5%;
+        border: 1px solid white;
+        border-radius: 20%;
+    }
+    img:hover{
+        opacity: 0.5;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-left: 2%;
+        padding: 20px;
+        background-color: #0e0d0d;
+    }
+    .contact-form h2{
+        color:#080808;
+        font-size: 30px;
+    }
+    .contact-form h2:hover{
+        color:#fff;
+    }
+    .contact-form {
+        background-color: #55ccd4;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form:hover{
+        background-color: green;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .contact-form input[type="text"],
+    .contact-form textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #0e0d0d;
+        border-radius: 40px;
+    }
+    .contact-form input[type="tel"],
+    .contact-form textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #0e0d0d;
+        border-radius: 40px;
+    }
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #0e0d0d;
+        border-radius: 40px;
+    }
+    .contact-form textarea {
+        resize: vertical;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .contact-form button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+        background-color: #db6f27;
+    }
+    
